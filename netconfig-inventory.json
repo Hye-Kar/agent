@@ -1,0 +1,737 @@
+{
+    "nc_rpc_reply": {
+        "$": {
+            "xmlns_nc": "urn:ietf:params:xml:ns:netconf:base:1.0",
+            "xmlns_junos": "http://xml.juniper.net/junos/21.4R0/junos",
+            "message_id": 101
+        },
+        "nc_data": {
+            "configuration": {
+                "$": {
+                    "xmlns": "http://yang.juniper.net/junos/conf/root",
+                    "junos_commit_seconds": 1726670813,
+                    "junos_commit_localtime": "2024-09-18 14:46:53 UTC",
+                    "junos_commit_user": "root"
+                },
+                "version": "21.4R3-S7.6",
+                "system": {
+                    "$": {
+                        "xmlns": "http://yang.juniper.net/junos/conf/system"
+                    },
+                    "host_name": "SWI-01",
+                    "root_authentication": {
+                        "encrypted_password": "$6$mUFLR7V.$B7zF6aYLFXpf4bvVmmHs58b4kE.Ze3ufBn/6eRJPcHh9GPiJP34Qgqtr1Z5YGbkk/ja1PNV.L4ZLKuixCwlcR0"
+                    },
+                    "services": {
+                        "ssh": {
+                            "root_login": "allow"
+                        },
+                        "netconf": {
+                            "ssh": "\n                ",
+                            "rfc_compliant": "",
+                            "yang_compliant": ""
+                        },
+                        "web_management": {
+                            "https": {
+                                "system_generated_certificate": ""
+                            }
+                        }
+                    },
+                    "auto_snapshot": "",
+                    "management_instance": "",
+                    "syslog": {
+                        "file": [
+                            {
+                                "name": "interactive-commands",
+                                "contents": {
+                                    "name": "interactive-commands",
+                                    "any": ""
+                                }
+                            },
+                            {
+                                "name": "messages",
+                                "contents": [
+                                    {
+                                        "name": "any",
+                                        "notice": ""
+                                    },
+                                    {
+                                        "name": "authorization",
+                                        "info": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "processes": {
+                        "dhcp_service": {
+                            "traceoptions": {
+                                "file": {
+                                    "filename": "dhcp_logfile",
+                                    "size": "10m"
+                                },
+                                "level": "all",
+                                "flag": {
+                                    "name": "packet"
+                                }
+                            }
+                        }
+                    }
+                },
+                "chassis": {
+                    "$": {
+                        "xmlns": "http://yang.juniper.net/junos/conf/chassis"
+                    },
+                    "redundancy": {
+                        "graceful_switchover": "\n            "
+                    }
+                },
+                "interfaces": {
+                    "$": {
+                        "xmlns": "http://yang.juniper.net/junos/conf/interfaces"
+                    },
+                    "interface": [
+                        {
+                            "name": "ge-0/0/0",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/1",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/2",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/3",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/4",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/5",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/6",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/7",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/8",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/9",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/10",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/11",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/12",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/13",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/14",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/15",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/16",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/17",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/18",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/19",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/20",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/21",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/22",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/0/23",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/1/0",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "xe-0/1/0",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/1/1",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "xe-0/1/1",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/1/2",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "xe-0/1/2",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "ge-0/1/3",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "xe-0/1/3",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "ethernet_switching": {
+                                        "storm_control": {
+                                            "profile_name": "default"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "irb",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "inet": {
+                                        "address": {
+                                            "name": "10.17.167.22/24"
+                                        }
+                                    },
+                                    "inet6": {
+                                        "dhcpv6_client": {
+                                            "client_type": "stateful",
+                                            "client_ia_type": {
+                                                "name": "ia-na"
+                                            },
+                                            "client_identifier": {
+                                                "duid_type": "duid-ll"
+                                            },
+                                            "vendor_id": "Juniper:ex2300-24t:JZ0220190188"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "name": "vme",
+                            "unit": {
+                                "name": 0,
+                                "family": {
+                                    "inet": {
+                                        "dhcp": {
+                                            "vendor_id": "Juniper-ex2300-24t-JZ0220190188"
+                                        }
+                                    },
+                                    "inet6": {
+                                        "dhcpv6_client": {
+                                            "client_type": "stateful",
+                                            "client_ia_type": {
+                                                "name": "ia-na"
+                                            },
+                                            "client_identifier": {
+                                                "duid_type": "duid-ll"
+                                            },
+                                            "vendor_id": "Juniper:ex2300-24t:JZ0220190188"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "snmp": {
+                    "$": {
+                        "xmlns": "http://yang.juniper.net/junos/conf/snmp"
+                    },
+                    "location": "Homelab",
+                    "contact": "Robert de Leeuw",
+                    "community": {
+                        "name": "public"
+                    }
+                },
+                "forwarding_options": {
+                    "$": {
+                        "xmlns": "http://yang.juniper.net/junos/conf/forwarding-options"
+                    },
+                    "storm_control_profiles": {
+                        "name": "default",
+                        "all": "\n            "
+                    }
+                },
+                "routing_options": {
+                    "$": {
+                        "xmlns": "http://yang.juniper.net/junos/conf/routing-options"
+                    },
+                    "static": {
+                        "route": {
+                            "name": "0.0.0.0/0",
+                            "next_hop": "10.17.167.254"
+                        }
+                    }
+                },
+                "protocols": {
+                    "$": {
+                        "xmlns": "http://yang.juniper.net/junos/conf/protocols"
+                    },
+                    "router_advertisement": {
+                        "interface": [
+                            {
+                                "name": "vme.0",
+                                "managed_configuration": ""
+                            },
+                            {
+                                "name": "irb.0",
+                                "managed_configuration": ""
+                            }
+                        ]
+                    },
+                    "lldp": {
+                        "interface": {
+                            "name": "all"
+                        }
+                    },
+                    "lldp_med": {
+                        "interface": {
+                            "name": "all"
+                        }
+                    },
+                    "igmp_snooping": {
+                        "vlan": {
+                            "name": "default"
+                        }
+                    },
+                    "rstp": {
+                        "interface": [
+                            {
+                                "name": "ge-0/0/0"
+                            },
+                            {
+                                "name": "ge-0/0/1"
+                            },
+                            {
+                                "name": "ge-0/0/2"
+                            },
+                            {
+                                "name": "ge-0/0/3"
+                            },
+                            {
+                                "name": "ge-0/0/4"
+                            },
+                            {
+                                "name": "ge-0/0/5"
+                            },
+                            {
+                                "name": "ge-0/0/6"
+                            },
+                            {
+                                "name": "ge-0/0/7"
+                            },
+                            {
+                                "name": "ge-0/0/8"
+                            },
+                            {
+                                "name": "ge-0/0/9"
+                            },
+                            {
+                                "name": "ge-0/0/10"
+                            },
+                            {
+                                "name": "ge-0/0/11"
+                            },
+                            {
+                                "name": "ge-0/0/12"
+                            },
+                            {
+                                "name": "ge-0/0/13"
+                            },
+                            {
+                                "name": "ge-0/0/14"
+                            },
+                            {
+                                "name": "ge-0/0/15"
+                            },
+                            {
+                                "name": "ge-0/0/16"
+                            },
+                            {
+                                "name": "ge-0/0/17"
+                            },
+                            {
+                                "name": "ge-0/0/18"
+                            },
+                            {
+                                "name": "ge-0/0/19"
+                            },
+                            {
+                                "name": "ge-0/0/20"
+                            },
+                            {
+                                "name": "ge-0/0/21"
+                            },
+                            {
+                                "name": "ge-0/0/22"
+                            },
+                            {
+                                "name": "ge-0/0/23"
+                            },
+                            {
+                                "name": "ge-0/1/0"
+                            },
+                            {
+                                "name": "xe-0/1/0"
+                            },
+                            {
+                                "name": "ge-0/1/1"
+                            },
+                            {
+                                "name": "xe-0/1/1"
+                            },
+                            {
+                                "name": "ge-0/1/2"
+                            },
+                            {
+                                "name": "xe-0/1/2"
+                            },
+                            {
+                                "name": "ge-0/1/3"
+                            },
+                            {
+                                "name": "xe-0/1/3"
+                            }
+                        ]
+                    }
+                },
+                "vlans": {
+                    "$": {
+                        "xmlns": "http://yang.juniper.net/junos/conf/vlans"
+                    },
+                    "vlan": {
+                        "name": "default",
+                        "vlan_id": 1,
+                        "l3_interface": "irb.0"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,4608 @@
+{
+    "nc_rpc_reply": {
+        "$": {
+            "xmlns_nc": "urn:ietf:params:xml:ns:netconf:base:1.0",
+            "xmlns_junos": "http://xml.juniper.net/junos/21.4R0/junos",
+            "message_id": 101
+        },
+        "interface_information": {
+            "$": {
+                "xmlns": "http://xml.juniper.net/junos/21.4R0/junos-interface",
+                "junos_style": "normal"
+            },
+            "physical_interface": [
+                {
+                    "name": "ge-0/0/0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 649,
+                    "snmp_index": 515,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:9c",
+                    "hardware_physical_address": "50:c7:09:90:8e:9c",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022356
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/0.0",
+                        "local_index": 555,
+                        "snmp_index": 539,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "ifff_is_primary": "",
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "pfe-0/0/0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 648,
+                    "snmp_index": 511,
+                    "speed": "800mbps",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": "\n",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    },
+                    "logical_interface": {
+                        "name": "pfe-0/0/0.16383",
+                        "local_index": 551,
+                        "snmp_index": 512,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "iff_snmp_traps": ""
+                        },
+                        "encapsulation": "ENET2",
+                        "policer_overhead": "\n",
+                        "logical_interface_bandwidth": 0,
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": [
+                            {
+                                "address_family_name": "inet",
+                                "mtu": "Unlimited",
+                                "max_local_cache": 0,
+                                "new_hold_limit": 0,
+                                "intf_curr_cnt": 0,
+                                "intf_unresolved_cnt": 0,
+                                "intf_dropcnt": 0,
+                                "address_family_flags": {
+                                    "ifff_mtu_user_conf": ""
+                                }
+                            },
+                            {
+                                "address_family_name": "inet6",
+                                "mtu": "Unlimited",
+                                "max_local_cache": 0,
+                                "new_hold_limit": 0,
+                                "intf_curr_cnt": 0,
+                                "intf_unresolved_cnt": 0,
+                                "intf_dropcnt": 0,
+                                "address_family_flags": {
+                                    "ifff_is_primary": "",
+                                    "ifff_mtu_user_conf": ""
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "pfh-0/0/0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 647,
+                    "snmp_index": 510,
+                    "speed": "800mbps",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": "\n",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    },
+                    "logical_interface": [
+                        {
+                            "name": "pfh-0/0/0.16383",
+                            "local_index": 549,
+                            "snmp_index": 513,
+                            "if_config_flags": {
+                                "iff_up": "",
+                                "iff_snmp_traps": ""
+                            },
+                            "encapsulation": "ENET2",
+                            "policer_overhead": "\n",
+                            "logical_interface_bandwidth": 0,
+                            "traffic_statistics": {
+                                "$": {
+                                    "junos_style": "brief"
+                                },
+                                "input_packets": 0,
+                                "output_packets": 0
+                            },
+                            "filter_information": "\n",
+                            "address_family": {
+                                "address_family_name": "inet",
+                                "mtu": "Unlimited",
+                                "max_local_cache": 0,
+                                "new_hold_limit": 0,
+                                "intf_curr_cnt": 0,
+                                "intf_unresolved_cnt": 0,
+                                "intf_dropcnt": 0,
+                                "address_family_flags": {
+                                    "ifff_mtu_user_conf": ""
+                                }
+                            }
+                        },
+                        {
+                            "name": "pfh-0/0/0.16384",
+                            "local_index": 550,
+                            "snmp_index": 514,
+                            "if_config_flags": {
+                                "iff_up": "",
+                                "iff_snmp_traps": ""
+                            },
+                            "encapsulation": "ENET2",
+                            "policer_overhead": "\n",
+                            "logical_interface_bandwidth": 0,
+                            "traffic_statistics": {
+                                "$": {
+                                    "junos_style": "brief"
+                                },
+                                "input_packets": 0,
+                                "output_packets": 0
+                            },
+                            "filter_information": "\n",
+                            "address_family": {
+                                "address_family_name": "inet",
+                                "mtu": "Unlimited",
+                                "max_local_cache": 0,
+                                "new_hold_limit": 0,
+                                "intf_curr_cnt": 0,
+                                "intf_unresolved_cnt": 0,
+                                "intf_dropcnt": 0,
+                                "address_family_flags": {
+                                    "ifff_is_primary": "",
+                                    "ifff_mtu_user_conf": ""
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ge-0/0/1",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 650,
+                    "snmp_index": 516,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Full-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:9d",
+                    "hardware_physical_address": "50:c7:09:90:8e:9d",
+                    "interface_flapped": {
+                        "_": "2024-12-24 07:24:06 UTC (10w4d 05:57 ago)",
+                        "$": {
+                            "junos_seconds": 6415025
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 12730640,
+                        "input_pps": 1253,
+                        "output_bps": 958032,
+                        "output_pps": 891
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/1.0",
+                        "local_index": 556,
+                        "snmp_index": 540,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 4133561,
+                            "output_packets": 5347534
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/2",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 651,
+                    "snmp_index": 517,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Full-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:9e",
+                    "hardware_physical_address": "50:c7:09:90:8e:9e",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:58 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022353
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 944,
+                        "output_pps": 1
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/2.0",
+                        "local_index": 557,
+                        "snmp_index": 541,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 50711,
+                            "output_packets": 253011
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/3",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 652,
+                    "snmp_index": 518,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:9f",
+                    "hardware_physical_address": "50:c7:09:90:8e:9f",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022357
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/3.0",
+                        "local_index": 558,
+                        "snmp_index": 542,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/4",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 653,
+                    "snmp_index": 519,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Full-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a0",
+                    "hardware_physical_address": "50:c7:09:90:8e:a0",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:57 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022354
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 944,
+                        "output_pps": 1
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/4.0",
+                        "local_index": 559,
+                        "snmp_index": 543,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 13539,
+                            "output_packets": 256927
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/5",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 654,
+                    "snmp_index": 520,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Full-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a1",
+                    "hardware_physical_address": "50:c7:09:90:8e:a1",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:57 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022354
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 880,
+                        "output_pps": 1
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/5.0",
+                        "local_index": 560,
+                        "snmp_index": 544,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 253015
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/6",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 655,
+                    "snmp_index": 521,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a2",
+                    "hardware_physical_address": "50:c7:09:90:8e:a2",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022357
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/6.0",
+                        "local_index": 561,
+                        "snmp_index": 545,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/7",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 656,
+                    "snmp_index": 522,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Full-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a3",
+                    "hardware_physical_address": "50:c7:09:90:8e:a3",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:58 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022353
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 987504,
+                        "input_pps": 920,
+                        "output_bps": 13713952,
+                        "output_pps": 1544
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/7.0",
+                        "local_index": 562,
+                        "snmp_index": 546,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 6798576,
+                            "output_packets": 14301052
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/8",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 657,
+                    "snmp_index": 523,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a4",
+                    "hardware_physical_address": "50:c7:09:90:8e:a4",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022357
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/8.0",
+                        "local_index": 563,
+                        "snmp_index": 547,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/9",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 658,
+                    "snmp_index": 524,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a5",
+                    "hardware_physical_address": "50:c7:09:90:8e:a5",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022357
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/9.0",
+                        "local_index": 564,
+                        "snmp_index": 548,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/10",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 659,
+                    "snmp_index": 525,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a6",
+                    "hardware_physical_address": "50:c7:09:90:8e:a6",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/10.0",
+                        "local_index": 565,
+                        "snmp_index": 549,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/11",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 660,
+                    "snmp_index": 526,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a7",
+                    "hardware_physical_address": "50:c7:09:90:8e:a7",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/11.0",
+                        "local_index": 566,
+                        "snmp_index": 550,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/12",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 661,
+                    "snmp_index": 527,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a8",
+                    "hardware_physical_address": "50:c7:09:90:8e:a8",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/12.0",
+                        "local_index": 567,
+                        "snmp_index": 551,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/13",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 662,
+                    "snmp_index": 528,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:a9",
+                    "hardware_physical_address": "50:c7:09:90:8e:a9",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/13.0",
+                        "local_index": 568,
+                        "snmp_index": 552,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/14",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 663,
+                    "snmp_index": 529,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:aa",
+                    "hardware_physical_address": "50:c7:09:90:8e:aa",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/14.0",
+                        "local_index": 569,
+                        "snmp_index": 553,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/15",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 664,
+                    "snmp_index": 530,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:ab",
+                    "hardware_physical_address": "50:c7:09:90:8e:ab",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/15.0",
+                        "local_index": 570,
+                        "snmp_index": 554,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/16",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 665,
+                    "snmp_index": 531,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:ac",
+                    "hardware_physical_address": "50:c7:09:90:8e:ac",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/16.0",
+                        "local_index": 571,
+                        "snmp_index": 555,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/17",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 666,
+                    "snmp_index": 532,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:ad",
+                    "hardware_physical_address": "50:c7:09:90:8e:ad",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/17.0",
+                        "local_index": 572,
+                        "snmp_index": 556,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/18",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 667,
+                    "snmp_index": 533,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:ae",
+                    "hardware_physical_address": "50:c7:09:90:8e:ae",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/18.0",
+                        "local_index": 573,
+                        "snmp_index": 557,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/19",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 668,
+                    "snmp_index": 534,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:af",
+                    "hardware_physical_address": "50:c7:09:90:8e:af",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/19.0",
+                        "local_index": 574,
+                        "snmp_index": 558,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/20",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 669,
+                    "snmp_index": 535,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:b0",
+                    "hardware_physical_address": "50:c7:09:90:8e:b0",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/20.0",
+                        "local_index": 575,
+                        "snmp_index": 559,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/21",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 670,
+                    "snmp_index": 536,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:b1",
+                    "hardware_physical_address": "50:c7:09:90:8e:b1",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/21.0",
+                        "local_index": 576,
+                        "snmp_index": 560,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/22",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 671,
+                    "snmp_index": 537,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:b2",
+                    "hardware_physical_address": "50:c7:09:90:8e:b2",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/22.0",
+                        "local_index": 577,
+                        "snmp_index": 561,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/0/23",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 672,
+                    "snmp_index": 538,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "link_mode": "Half-duplex",
+                    "speed": "Auto",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Copper",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_down": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:b3",
+                    "hardware_physical_address": "50:c7:09:90:8e:b3",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:54 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022358
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 0,
+                        "input_pps": 0,
+                        "output_bps": 0,
+                        "output_pps": 0
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "ethernet_alarm_link_down": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/0/23.0",
+                        "local_index": 578,
+                        "snmp_index": 562,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "ge-0/1/0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 673,
+                    "snmp_index": 563,
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "sonet_mode": "LAN-PHY",
+                    "source_filtering": "disabled",
+                    "speed": "1000mbps",
+                    "eth_switch_error": "none",
+                    "bpdu_error": "none",
+                    "ld_pdu_error": "none",
+                    "l2pt_error": "none",
+                    "loopback": "disabled",
+                    "if_flow_control": "disabled",
+                    "if_auto_negotiation": "enabled",
+                    "if_remote_fault": "online",
+                    "ieee_802_3az_eee": "disabled",
+                    "if_auto_mdix": "enabled",
+                    "if_media_type": "Fiber",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": {
+                        "internal_flags": 0
+                    },
+                    "if_config_flags": {
+                        "iff_snmp_traps": "",
+                        "internal_flags": 0
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "physical_interface_cos_information": {
+                        "physical_interface_cos_hw_max_queues": 8,
+                        "physical_interface_cos_use_max_queues": 8
+                    },
+                    "current_physical_address": "50:c7:09:90:8e:b4",
+                    "hardware_physical_address": "50:c7:09:90:8e:b4",
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:55 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022357
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_bps": 1054048,
+                        "input_pps": 379,
+                        "output_bps": 128864,
+                        "output_pps": 136
+                    },
+                    "active_alarms": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "active_defects": {
+                        "interface_alarms": {
+                            "alarm_not_present": ""
+                        }
+                    },
+                    "ethernet_pcs_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "bit_error_seconds": 0,
+                        "errored_blocks_seconds": 0
+                    },
+                    "ethernet_fec_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "enabled_fec_mode": "\n"
+                    },
+                    "ethernet_fec_statistics": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "fec_ccw_count": 0,
+                        "fec_nccw_count": 0,
+                        "fec_ccw_error_rate": 0,
+                        "fec_nccw_error_rate": 0
+                    },
+                    "ethernet_prbs_mode": {
+                        "$": {
+                            "junos_style": "verbose"
+                        },
+                        "prbs_mode": "Disabled"
+                    },
+                    "interface_transmit_statistics": "Disabled",
+                    "logical_interface": {
+                        "name": "ge-0/1/0.0",
+                        "local_index": 579,
+                        "snmp_index": 564,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 3996263,
+                            "output_packets": 468928
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "bme0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 65,
+                    "snmp_index": 37,
+                    "if_type": "Ethernet",
+                    "link_level_type": "Ethernet",
+                    "mtu": 9512,
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": "\n",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "current_physical_address": {
+                        "_": "02:00:00:00:00:0a",
+                        "$": {
+                            "junos_format": "MAC 02:00:00:00:00:0a"
+                        }
+                    },
+                    "hardware_physical_address": {
+                        "_": "02:00:00:00:00:0a",
+                        "$": {
+                            "junos_format": "MAC 02:00:00:00:00:0a"
+                        }
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 20471567
+                    },
+                    "logical_interface": {
+                        "name": "bme0.0",
+                        "local_index": 5,
+                        "snmp_index": 220,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "ENET2",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 19556637,
+                            "output_packets": 4
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "inet",
+                            "mtu": 9498,
+                            "max_local_cache": 75000,
+                            "new_hold_limit": 75000,
+                            "intf_curr_cnt": 0,
+                            "intf_unresolved_cnt": 0,
+                            "intf_dropcnt": 0,
+                            "address_family_flags": {
+                                "ifff_is_primary": ""
+                            },
+                            "interface_address": [
+                                {
+                                    "ifa_flags": {
+                                        "ifaf_primary": "",
+                                        "ifaf_current_default": "",
+                                        "ifaf_current_preferred": "",
+                                        "ifaf_current_primary": ""
+                                    },
+                                    "ifa_destination": "128/2",
+                                    "ifa_local": "128.0.0.1",
+                                    "ifa_broadcast": "191.255.255.255"
+                                },
+                                {
+                                    "ifa_flags": {
+                                        "ifaf_primary": ""
+                                    },
+                                    "ifa_destination": "128/2",
+                                    "ifa_local": "128.0.0.4",
+                                    "ifa_broadcast": "191.255.255.255"
+                                },
+                                {
+                                    "ifa_flags": {
+                                        "ifaf_primary": ""
+                                    },
+                                    "ifa_destination": "128/2",
+                                    "ifa_local": "128.0.0.16",
+                                    "ifa_broadcast": "191.255.255.255"
+                                },
+                                {
+                                    "ifa_flags": {
+                                        "ifaf_primary": ""
+                                    },
+                                    "ifa_destination": "128/2",
+                                    "ifa_local": "128.0.0.63",
+                                    "ifa_broadcast": "191.255.255.255"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "cbp0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 643,
+                    "snmp_index": 501,
+                    "if_type": "Ethernet",
+                    "link_level_type": "Ethernet",
+                    "mtu": 9192,
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "link_type": "Full-Duplex",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "current_physical_address": {
+                        "_": "00:00:00:00:00:14",
+                        "$": {
+                            "junos_format": "MAC 00:00:00:00:00:14"
+                        }
+                    },
+                    "hardware_physical_address": {
+                        "_": "00:00:00:00:00:14",
+                        "$": {
+                            "junos_format": "MAC 00:00:00:00:00:14"
+                        }
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "dsc",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 5,
+                    "snmp_index": 5,
+                    "if_type": "Software-Pseudo",
+                    "mtu": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_point_to_point": "",
+                        "iff_snmp_traps": ""
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "esi",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 642,
+                    "snmp_index": 502,
+                    "if_type": "Software-Pseudo",
+                    "link_level_type": "VxLAN-Tunnel-Endpoint",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "link_type": "Full-Duplex",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "fti0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 645,
+                    "snmp_index": 503,
+                    "if_type": "FTI",
+                    "link_level_type": "Flexible-tunnel-Interface",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "link_type": "Full-Duplex",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "gre",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 10,
+                    "snmp_index": 8,
+                    "if_type": "GRE",
+                    "link_level_type": "GRE",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_point_to_point": "",
+                        "iff_snmp_traps": ""
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "ipip",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 11,
+                    "snmp_index": 9,
+                    "if_type": "IPIP",
+                    "link_level_type": "IP-over-IP",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "irb",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 640,
+                    "snmp_index": 504,
+                    "if_type": "Ethernet",
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "link_type": "Full-Duplex",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "current_physical_address": {
+                        "_": "50:c7:09:90:8e:99",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:99"
+                        }
+                    },
+                    "hardware_physical_address": {
+                        "_": "50:c7:09:90:8e:99",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:99"
+                        }
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    },
+                    "logical_interface": {
+                        "name": "irb.0",
+                        "local_index": 546,
+                        "snmp_index": 505,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "ENET2",
+                        "policer_overhead": "\n",
+                        "logical_interface_bandwidth": "1Gbps",
+                        "irb_domain": {
+                            "irb_routing_instance": "default-switch",
+                            "irb_bridge": "default"
+                        },
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 4563990,
+                            "output_packets": 18543375
+                        },
+                        "filter_information": "\n",
+                        "address_family": [
+                            {
+                                "address_family_name": "inet",
+                                "mtu": 1500,
+                                "max_local_cache": 75000,
+                                "new_hold_limit": 75000,
+                                "intf_curr_cnt": 10,
+                                "intf_unresolved_cnt": 0,
+                                "intf_dropcnt": 0,
+                                "address_family_flags": {
+                                    "ifff_is_primary": "",
+                                    "ifff_sendbcast_pkt_to_re": ""
+                                },
+                                "interface_address": {
+                                    "ifa_flags": {
+                                        "ifaf_current_default": "",
+                                        "ifaf_current_preferred": "",
+                                        "ifaf_current_primary": ""
+                                    },
+                                    "ifa_destination": "10.17.167/24",
+                                    "ifa_local": "10.17.167.22",
+                                    "ifa_broadcast": "10.17.167.255"
+                                }
+                            },
+                            {
+                                "address_family_name": "inet6",
+                                "mtu": 1500,
+                                "max_local_cache": 75000,
+                                "new_hold_limit": 75000,
+                                "intf_curr_cnt": 12,
+                                "intf_unresolved_cnt": 0,
+                                "intf_dropcnt": 0,
+                                "address_family_flags": {
+                                    "ifff_is_primary": ""
+                                },
+                                "interface_address": [
+                                    {
+                                        "ifa_flags": {
+                                            "ifaf_current_default": "",
+                                            "ifaf_current_primary": ""
+                                        },
+                                        "ifa_local": "2001:470:1f15:9ee::1000",
+                                        "interface_address": {
+                                            "in6_addr_flags": {
+                                                "ifaf_none": ""
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "ifa_flags": {
+                                            "ifaf_current_preferred": "",
+                                            "internal_flags": 0
+                                        },
+                                        "ifa_destination": "fe80::/64",
+                                        "ifa_local": "fe80::52c7:900:90:8e99",
+                                        "interface_address": {
+                                            "in6_addr_flags": {
+                                                "ifaf_none": ""
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "jsrv",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 646,
+                    "snmp_index": 506,
+                    "if_type": "Ethernet",
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": "\n",
+                    "link_type": "Full-Duplex",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "current_physical_address": {
+                        "_": "50:c7:09:90:8e:99",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:99"
+                        }
+                    },
+                    "hardware_physical_address": {
+                        "_": "50:c7:09:90:8e:99",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:99"
+                        }
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    },
+                    "logical_interface": {
+                        "name": "jsrv.1",
+                        "local_index": 548,
+                        "snmp_index": 507,
+                        "if_config_flags": {
+                            "iff_up": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "unknown",
+                        "policer_overhead": "\n",
+                        "logical_interface_bandwidth": "1Gbps",
+                        "irb_domain": {
+                            "irb_routing_instance": "None",
+                            "irb_bridge": "None"
+                        },
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "inet",
+                            "mtu": 1514,
+                            "max_local_cache": 75000,
+                            "new_hold_limit": 75000,
+                            "intf_curr_cnt": 0,
+                            "intf_unresolved_cnt": 0,
+                            "intf_dropcnt": 0,
+                            "address_family_flags": {
+                                "ifff_is_primary": ""
+                            },
+                            "interface_address": {
+                                "ifa_flags": {
+                                    "ifaf_primary": "",
+                                    "ifaf_current_default": "",
+                                    "ifaf_current_preferred": "",
+                                    "ifaf_current_primary": ""
+                                },
+                                "ifa_destination": "128/2",
+                                "ifa_local": "128.0.0.127",
+                                "ifa_broadcast": "191.255.255.255"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "lo0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 6,
+                    "snmp_index": 6,
+                    "if_type": "Loopback",
+                    "mtu": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_loopback": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 244748132,
+                        "output_packets": 244748132
+                    },
+                    "logical_interface": {
+                        "name": "lo0.16385",
+                        "local_index": 547,
+                        "snmp_index": 22,
+                        "if_config_flags": {
+                            "iff_snmp_traps": ""
+                        },
+                        "encapsulation": "Unspecified",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 244741721,
+                            "output_packets": 244741721
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "inet",
+                            "mtu": "Unlimited",
+                            "max_local_cache": 0,
+                            "new_hold_limit": 0,
+                            "intf_curr_cnt": 0,
+                            "intf_unresolved_cnt": 0,
+                            "intf_dropcnt": 0,
+                            "address_family_flags": {
+                                "ifff_none": ""
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "lsi",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 4,
+                    "snmp_index": 4,
+                    "if_type": "Software-Pseudo",
+                    "link_level_type": "LSI",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": "\n",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "me0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 64,
+                    "snmp_index": 33,
+                    "if_type": "Ethernet",
+                    "link_level_type": "Ethernet",
+                    "mtu": 1514,
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": "",
+                        "ifdf_no_carrier": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": ""
+                    },
+                    "if_media_flags": {
+                        "internal_flags": 0
+                    },
+                    "current_physical_address": {
+                        "_": "50:c7:09:90:8e:9a",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:9a"
+                        }
+                    },
+                    "hardware_physical_address": {
+                        "_": "50:c7:09:90:8e:99",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:99"
+                        }
+                    },
+                    "interface_flapped": {
+                        "_": "2024-12-17 06:41:32 UTC (11w4d 06:39 ago)",
+                        "$": {
+                            "junos_seconds": 7022380
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    },
+                    "logical_interface": {
+                        "name": "me0.0",
+                        "local_index": 6,
+                        "snmp_index": 34,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "Ethernet-Bridge",
+                        "policer_overhead": "\n",
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": {
+                            "address_family_name": "eth-switch",
+                            "mtu": 1514,
+                            "address_family_flags": {
+                                "ifff_is_primary": "",
+                                "internal_flags": 0
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "mtun",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 66,
+                    "snmp_index": 12,
+                    "if_type": "Multicast-GRE",
+                    "link_level_type": "GRE",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "pimd",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 26,
+                    "snmp_index": 11,
+                    "if_type": "PIMD",
+                    "link_level_type": "PIM-Decapsulator",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": "\n",
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "pime",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 25,
+                    "snmp_index": 10,
+                    "if_type": "PIME",
+                    "link_level_type": "PIM-Encapsulator",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": "\n",
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "pip0",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 644,
+                    "snmp_index": 508,
+                    "if_type": "Ethernet",
+                    "link_level_type": "Ethernet",
+                    "mtu": 9192,
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "link_type": "Full-Duplex",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "current_physical_address": {
+                        "_": "50:c7:09:90:8e:aa",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:aa"
+                        }
+                    },
+                    "hardware_physical_address": {
+                        "_": "50:c7:09:90:8e:aa",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:aa"
+                        }
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "tap",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 12,
+                    "snmp_index": 7,
+                    "if_type": "Software-Pseudo",
+                    "link_level_type": "Interface-Specific",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_snmp_traps": ""
+                    },
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                },
+                {
+                    "name": "vme",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "down",
+                    "local_index": 67,
+                    "snmp_index": 35,
+                    "if_type": "Mgmt-VLAN",
+                    "link_level_type": "Mgmt-VLAN",
+                    "mtu": 1514,
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": {
+                        "iff_hardware_down": "",
+                        "iff_snmp_traps": ""
+                    },
+                    "link_type": "Full-Duplex",
+                    "if_media_flags": {
+                        "internal_flags": 0
+                    },
+                    "current_physical_address": {
+                        "_": "50:c7:09:90:8e:9a",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:9a"
+                        }
+                    },
+                    "hardware_physical_address": {
+                        "_": "50:c7:09:90:8e:9a",
+                        "$": {
+                            "junos_format": "MAC 50:c7:09:90:8e:9a"
+                        }
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    },
+                    "logical_interface": {
+                        "name": "vme.0",
+                        "local_index": 7,
+                        "snmp_index": 36,
+                        "if_config_flags": {
+                            "iff_device_down": "",
+                            "iff_hardware_down": "",
+                            "iff_snmp_traps": "",
+                            "internal_flags": 0
+                        },
+                        "encapsulation": "ENET2",
+                        "policer_overhead": "\n",
+                        "logical_interface_bandwidth": "1Gbps",
+                        "irb_domain": {
+                            "irb_routing_instance": "__juniper_private1__",
+                            "irb_bridge": "mgmt"
+                        },
+                        "traffic_statistics": {
+                            "$": {
+                                "junos_style": "brief"
+                            },
+                            "input_packets": 0,
+                            "output_packets": 0
+                        },
+                        "filter_information": "\n",
+                        "address_family": [
+                            {
+                                "address_family_name": "inet",
+                                "mtu": 1500,
+                                "max_local_cache": 0,
+                                "new_hold_limit": 0,
+                                "intf_curr_cnt": 0,
+                                "intf_unresolved_cnt": 0,
+                                "intf_dropcnt": 0,
+                                "address_family_flags": {
+                                    "ifff_is_primary": "",
+                                    "ifff_sendbcast_pkt_to_re": ""
+                                }
+                            },
+                            {
+                                "address_family_name": "inet6",
+                                "mtu": 1500,
+                                "max_local_cache": 75000,
+                                "new_hold_limit": 75000,
+                                "intf_curr_cnt": 0,
+                                "intf_unresolved_cnt": 0,
+                                "intf_dropcnt": 0,
+                                "address_family_flags": {
+                                    "ifff_is_primary": ""
+                                },
+                                "interface_address": {
+                                    "ifa_flags": {
+                                        "ifaf_down": "",
+                                        "ifaf_current_preferred": "",
+                                        "internal_flags": 0
+                                    },
+                                    "ifa_destination": "fe80::/64",
+                                    "ifa_local": "fe80::52c7:9ff:fe90:8e9a",
+                                    "interface_address": {
+                                        "in6_addr_flags": {
+                                            "in6_tentative": ""
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "vtep",
+                    "admin_status": {
+                        "_": "up",
+                        "$": {
+                            "junos_format": "Enabled"
+                        }
+                    },
+                    "oper_status": "up",
+                    "local_index": 641,
+                    "snmp_index": 509,
+                    "if_type": "Software-Pseudo",
+                    "link_level_type": "VxLAN-Tunnel-Endpoint",
+                    "mtu": "Unlimited",
+                    "speed": "Unlimited",
+                    "if_device_flags": {
+                        "ifdf_present": "",
+                        "ifdf_running": ""
+                    },
+                    "ifd_specific_config_flags": "\n",
+                    "if_config_flags": "\n",
+                    "link_type": "Full-Duplex",
+                    "if_media_flags": {
+                        "ifmf_none": ""
+                    },
+                    "interface_flapped": {
+                        "_": "Never",
+                        "$": {
+                            "junos_seconds": 0
+                        }
+                    },
+                    "traffic_statistics": {
+                        "$": {
+                            "junos_style": "brief"
+                        },
+                        "input_packets": 0,
+                        "output_packets": 0
+                    }
+                }
+            ]
+        }
+    }
+}

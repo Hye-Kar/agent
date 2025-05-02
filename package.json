@@ -1,0 +1,31 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "async": "^3.2.6",
+    "axios": "^1.9.0",
+    "dhcp": "^0.2.20",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "net-snmp": "^3.21.2",
+    "node-netconf": "^1.1.2",
+    "ssh2": "^1.16.0",
+    "tslib": "^2.8.1",
+    "vasync": "^2.2.1",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.24",
+    "@types/express": "^5.0.1",
+    "@types/ssh2": "^1.15.5",
+    "@types/xml2js": "^0.4.14"
+  }
+}
