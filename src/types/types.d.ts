@@ -1,0 +1,26 @@
+export type RackItemType = "server" | "switch" | "pdu"
+export type SNMPNetworkInferface = {
+    index: number,
+    description: string,
+    type: string,
+    mtu: number,
+    speed: number,
+    macAddress: string,
+    adminStatus: string,
+    operStatus: string,
+    lastChange: number,
+    inOctets: number,
+    inUcastPkts: number,
+    inNUcastPkts: number,
+    inDiscards: number,
+    inErrors: number,
+    inUnknownProtos: number,
+    outOctets: number,
+    outUcastPkts: number,
+    outNUcastPkts: number,
+    outDiscards: number,
+    outErrors: number,
+    outQLen: number,
+    specific: number,
+}
+

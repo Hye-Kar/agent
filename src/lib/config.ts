@@ -12,7 +12,8 @@ export default function parseConfig(config: {
 }[]): ParsedConfig {
     return {
         get: (key: string): any => {
-            config.find(value => value.key == key)
+            console.log(key)
+            return config.find(value => value.key == key).value
         },
         _raw: config
     }

@@ -10,17 +10,18 @@ class Client {
         ], config)) {
             throw new Error("Invalid config")
         }
-
+        console.log(config)
         this.config = parseConfig(config);
-        
-        if (this.config.get("snmp.host") !== typeof "string") {
+
+        if (typeof this.config.get("snmp.host") !== "string") {
+            console.log(this.config.get("snmp.host"))
             throw new Error("snmp.host must be a string")
         }
 
         this.session = snmp.createSession(this.config.get("snmp.host"), this.config.get("snmp.community") ?? "public")
     }
-    get(oid: string, cb: (error: any, varbinds: any) => void) {
-        return this.session.get([oid], cb)
+    get(oid: string[], cb: (error: any, varbinds: any) => void) {
+        return this.session.get(oid, cb)
     }
     getBulk(oids: string[], cb: (error: any, varbinds: any) => void) {
         return this.session.getBulk(oids, cb)
@@ -36,5 +37,14 @@ class Client {
         return this.session.set(values, cb)
     }
 }
+function parsePhysAddress(buffer: Buffer) {
+    if (!Buffer.isBuffer(buffer)) {
+        return "00:00:00:00:00:00";
+    }
 
-export { Client }
+    return [...buffer]
+        .map(byte => byte.toString(16).padStart(2, '0'))
+        .join(':')
+        .toUpperCase();
+}
+export { Client, parsePhysAddress }
